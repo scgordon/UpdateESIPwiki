@@ -4,9 +4,12 @@
 # The output is a file with the name spiralCode.txt in the directory
 # wikiSpirals.
 #
+cd wikiSpirals
+WikiContent=$(pwd)
+cd ../../Crosswalks
+CrosswalkHome=$(pwd)
 
-CrosswalkHome="/data/bedi/xml"
-OutputHome="/data/bedi/scripts/updateBEDIwiki"
+
 
 if [ $# != 0 ]; then
 
@@ -22,10 +25,10 @@ java net.sf.saxon.Transform \
 -xsl:$CrosswalkHome/crosswalks.xsl \
 displayFormat=compressedWiki \
 spiralDisplayListString="$var" \
-dialectDisplayListString=DIF,DCAT,Dryad,ECHO,ECS,EML,FGDC,HDF5.1,19110,ISO,ISO-1,OGC-SOS,SERF,THREDDS,netCDF \
+dialectDisplayListString=19110,ACDD,ADIwg,BDP,CSDGM,DCAT,DCITE,DIF,DIF-10,Dryad,ECHO,ECS,EML,HCLS,HDF5.1,ISO,ISO-1,MODS,Mercury,NUG,OGC-SOS,Onedcx,PROV,RDA-CISL,SERF,THREDDS,UMM,WSDL \
 fileNamePattern=*.xml \
 recordSetPath=$OutputHome \
-> $OutputHome/wikiSpirals/"$var".txt
+> $WikiContent/"$var".txt
 done
 else
 echo 'writeWikiSpiral spiralCode spiralCode SpiralCode'

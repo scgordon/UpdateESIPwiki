@@ -1,6 +1,6 @@
-./writeWikiSpiralTableFiles.sh &
-./writeAllDialectsGlossaries.sh &
+./writeWikiSpiralTableFiles.sh &&
+./writeAllDialectsGlossaries.sh &&
 ./writeWikiGlossary.sh &&
-./updateWikiRecSpiral.sh &
-./updateWikiGlossary.sh &
-../AllCrosswalksTests/TheDailyCrosswalk.sh
+./updateWikiRecSpiral.sh &&
+./updateWikiGlossary.sh 
+#../AllCrosswalksTests/TheDailyCrosswalk.sh

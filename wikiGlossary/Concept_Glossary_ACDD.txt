@@ -1,1 +1,0 @@
-<div id="Concepts_Glossary"><table border="2" cellpadding="4" cellspacing="2" style="border-collapse: collapse;" class="sortable"><tr><th width="20%"><b>Concept</b></th><th><b>ACDD&nbsp;Dialect Paths</b></th></tr></table></div>
