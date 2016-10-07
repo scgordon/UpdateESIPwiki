@@ -25,7 +25,7 @@ java net.sf.saxon.Transform \
 -xsl:$CrosswalkHome/crosswalks.xsl \
 displayFormat=compressedWiki \
 spiralDisplayListString="$var" \
-dialectDisplayListString=19110,ACDD,ADIwg,BDP,CSDGM,DCAT,DCITE,DIF,DIF-10,Dryad,ECHO,ECS,EML,HCLS,HDF5.1,ISO,ISO-1,MODS,Mercury,NUG,OGC-SOS,Onedcx,PROV,RDA-CISL,SERF,THREDDS,UMM,WSDL \
+dialectDisplayListString=ACDD,ADIwg,BDP,CSDGM,DCAT,DCITE,DIF,DIF-10,Dryad,ECHO,ECS,EML,HCLS,HDF5.1,ISO,ISO-1,MODS,Mercury,NUG,OGC-SOS,Onedcx,PROV,RDA-CISL,SERF,THREDDS,UMM,WSDL \
 fileNamePattern=*.xml \
 recordSetPath=$OutputHome \
 > $WikiContent/"$var".txt
