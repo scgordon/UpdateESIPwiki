@@ -5,3 +5,4 @@
 ./bedi-esip.py -v "Concepts_Glossary_Mercury" wikiGlossary/Concepts_Glossary_Mercury.txt
 ./bedi-esip.py -v "Concepts_Glossary_ECHO" wikiGlossary/Concepts_Glossary_ECHO.txt
 ./bedi-esip.py -v "Concepts_Glossary_DCITE" wikiGlossary/Concepts_Glossary_DCITE.txt
+./bedi-esip.py -v "Concepts_Glossary_CSDGM" wikiGlossary/Concepts_Glossary_CSDGM.txt
