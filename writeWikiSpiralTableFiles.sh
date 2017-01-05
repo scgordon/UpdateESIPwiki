@@ -88,6 +88,6 @@
 ./writeWikiSpiral.sh UMM-Granule_Optional
 ./writeWikiSpiral.sh UMM-Common_Required
 ./writeWikiSpiral.sh UMM-Common_Optional
-./writeWikiSpiral.sh UMM-Collection_Required
+./writeWikiSpiral.sh UMM-Collection_Required ISO, ISO-1, ECHO, DIF-10, DIF
 ./writeWikiSpiral.sh UMM-Collection_Recommended
 ./writeWikiSpiral.sh UMM-Collection_Optional
