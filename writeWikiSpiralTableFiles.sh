@@ -76,7 +76,7 @@
 ./writeWikiSpiral.sh LTER_Access
 ./writeWikiSpiral.sh LTER_Integration
 ./writeWikiSpiral.sh CMR-Collection_Recommended
-./writeWikiSpiral.sh CMR-Collection_HighlyRecommended
+./writeWikiSpiral.sh CMR-Collection_Optional
 ./writeWikiSpiral.sh CMR-Collection_Required
 ./writeWikiSpiral.sh CMR-Common_Recommended
 ./writeWikiSpiral.sh CMR-Common_Optional
@@ -91,4 +91,4 @@
 ./writeWikiSpiral.sh UMM-Common_Optional
 ./writeWikiSpiral.sh UMM-Collection_Required
 ./writeWikiSpiral.sh UMM-Collection_Recommended
-./writeWikiSpiral.sh UMM-Collection_HighlyRecommended
+./writeWikiSpiral.sh UMM-Collection_Optional
